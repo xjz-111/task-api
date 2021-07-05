@@ -31,7 +31,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
+    // 使用api依赖，可以让依赖task-api的module不用重复依赖该库
     api 'com.github.xjz-111:task-annotation:1.0.0'
+
 }
 
 buildscript {

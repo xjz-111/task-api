@@ -12,6 +12,12 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [TASK_MODULE_NAME: project.getName()]
+            }
+        }
     }
 
     buildTypes {
@@ -34,5 +40,5 @@ dependencies {
 
     implementation project(path:':task-api')
 
-    annotationProcessor 'com.github.xjz-111:task-compiler:0.0.0.2'
+    annotationProcessor 'com.github.xjz-111:task-compiler:0.0.0.4'
 }
