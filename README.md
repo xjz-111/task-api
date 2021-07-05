@@ -57,8 +57,7 @@
   
 2. 具体使用
     ``` java
-    
-    // 仅仅在需要的module定义自己的任务便可。如下，添加@Task注解，实现InitTask，其他无需任何操作！！！
+    // ！！！仅仅在需要的module定义自己的任务便可。如下，添加@Task注解，实现InitTask，其他无需任何操作！！！
     
     /**
      * thread：     任务线程类型 - TaskType.MAIN_THREAD 和 TaskType.CHILD_THREAD
