@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leslie.task_api" >
+
+    <application>
+
+        <provider
+            android:multiprocess="false"
+            android:exported="false"
+            android:authorities="com.leslie.task_api.leslie"
+            android:name=".InitTaskProvider"/>
+    </application>
+
+</manifest>
