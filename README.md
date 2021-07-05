@@ -1,3 +1,4 @@
+#### task-api
 
 ```
 一个自动注册的Android启动任务管理器，区分线程和优先级，可延时，省去各种init()调用，只需定义自己的Task。
@@ -107,10 +108,13 @@
     ```
 
 #### 五. 其他
-* 编译器扫描注解日志
-![image]()
+* 编译期扫描注解日志
+![image](https://github.com/xjz-111/task-api/blob/master/imgs/build-log.jpg)
 * 生成代码在app/build/generated/ap_generated_sources/debug/out/com/taskManager/task目录下
-![image]()  
+![image](https://github.com/xjz-111/task-api/blob/master/imgs/generate-code.jpg)  
+#### 五. 小学生QQ
+<img src="https://github.com/xjz-111/task-api/blob/master/imgs/qq.jpg" width="300" height="300"/><br/>
+
 
 
 
