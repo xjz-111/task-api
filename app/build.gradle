@@ -40,5 +40,5 @@ dependencies {
 
     implementation project(path:':task-api')
 
-    annotationProcessor 'com.github.xjz-111:task-compiler:0.0.0.4'
+    annotationProcessor 'com.github.xjz-111:task-compiler:1.0.0'
 }
