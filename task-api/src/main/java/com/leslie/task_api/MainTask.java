@@ -28,7 +28,7 @@ class MainTask {
      * @param context
      * @param tasks
      */
-    static synchronized void startWithPriority(final Context context, List<MTask> tasks){
+    static void startWithPriority(final Context context, List<MTask> tasks){
         MainTask.Builder builder = MainTask.builder();
         for (final MTask task : tasks){
             builder.addInterceptor(new TaskInterceptor() {
@@ -46,7 +46,7 @@ class MainTask {
      * @param context
      * @param tasks
      */
-    static synchronized void startWithDelay(final Context context, List<MTask> tasks){
+    static void startWithDelay(final Context context, List<MTask> tasks){
         Handler handler = new Handler(Looper.getMainLooper());
         for (final MTask task : tasks){
             handler.postDelayed(new Runnable() {
