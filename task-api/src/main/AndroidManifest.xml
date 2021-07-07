@@ -6,7 +6,7 @@
         <provider
             android:multiprocess="false"
             android:exported="false"
-            android:authorities="com.leslie.task_api.leslie"
+            android:authorities="${applicationId}.leslie.task_api"
             android:name=".InitTaskProvider"/>
     </application>
 
