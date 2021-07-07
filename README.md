@@ -1,11 +1,11 @@
 #### task-api
 ```diff
-@@  一个自动注册的Android启动任务管理器，区分线程和优先级，可延时，省去各种init()调用，只需定义自己的Task。@@ 
+@@一个自动注册的Android启动任务管理器，区分线程和优先级，可延时，省去各种init()调用，只需定义自己的Task。@@ 
 ```
 #### 版本
 模块|task-api|task-annotation|task-compiler
 ---|---|---|---
-版本|[task-api-1.0.0.aar](https://jitpack.io/com/github/xjz-111/task-api/1.0.0/task-api-task-annotation-1.0.0.jar)|[task-annotation-1.0.0.jar](https://jitpack.io/com/github/xjz-111/task-annotation/1.0.0/task-annotation-1.0.0.jar)|[task-compiler-1.0.0.jar](https://jitpack.io/com/github/xjz-111/task-compiler/1.0.0/task-compiler-1.0.0.jar)
+版本|[task-api-1.0.1.aar](https://jitpack.io/com/github/xjz-111/task-api/1.0.1/task-api-1.0.1.aar)|[task-annotation-1.0.0.jar](https://jitpack.io/com/github/xjz-111/task-annotation/1.0.0/task-annotation-1.0.0.jar)|[task-compiler-1.0.0.jar](https://jitpack.io/com/github/xjz-111/task-compiler/1.0.0/task-compiler-1.0.0.jar)
 
 #### 一. 功能介绍
 * 支持主线程或子线程任务  
