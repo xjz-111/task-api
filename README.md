@@ -105,6 +105,10 @@
         TaskManager.getInstance().isDebug(isDebug);  
     }
     ```
+4. 开启混淆
+    ``` java
+    -keep class com.taskManager.task.**{*;}
+    ```
 
 #### 五. 其他
 * 编译期扫描注解日志
